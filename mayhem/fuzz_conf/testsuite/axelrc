@@ -1,0 +1,10 @@
+# axelrc
+num_connections = 8
+http_proxy = http://proxy:3128
+no_proxy = localhost,example.com
+header = X-Test: 1
+user_agent = fuzz
+max_redirect = 2
+interfaces = 127.0.0.1 10.0.0.1
+alternate_output = 1
+verbose = 2

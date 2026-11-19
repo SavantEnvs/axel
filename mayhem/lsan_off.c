@@ -1,0 +1,3 @@
+/* Leak detection off for every fuzz/standalone binary (SPEC 6.2 item 15);
+ * ASan and UBSan stay fully active. */
+int __lsan_is_turned_off(void) { return 1; }

@@ -1,0 +1,9 @@
+220 hi
+331 ok
+230 ok
+250 ok
+550 no
+150 here
+-rw-r--r-- 1 u g 1234 Jan 1 00:00 file.bin
+226 done
+227 Entering Passive Mode (127,0,0,1,4,1)
